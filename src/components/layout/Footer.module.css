@@ -82,6 +82,22 @@
   color: var(--fg-subtle);
 }
 
+.credit {
+  font-size: 12px;
+  color: var(--fg-subtle);
+}
+
+.creditLink {
+  color: var(--fg-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--duration) var(--ease);
+}
+
+.creditLink:hover {
+  color: var(--fg);
+}
+
 @media (max-width: 600px) {
   .inner {
     grid-template-columns: 1fr;

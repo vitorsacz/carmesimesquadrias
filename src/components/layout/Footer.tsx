@@ -50,6 +50,17 @@ export function Footer() {
           <span className={styles.copyright}>
             © {year} Carmesim Esquadrias. {t('footer.direitos')}.
           </span>
+          <span className={styles.credit}>
+            {t('footer.dev')}{' '}
+            <a
+              href="https://vitorsantos.dev.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.creditLink}
+            >
+              Vitor Santos
+            </a>
+          </span>
         </div>
       </div>
     </footer>
