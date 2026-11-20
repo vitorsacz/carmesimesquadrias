@@ -256,3 +256,22 @@
     flex-wrap: wrap;
   }
 }
+
+/* Abas de antes/depois no celular: 3 colunas iguais, sem quebrar uma aba para a linha de baixo */
+@media (max-width: 560px) {
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  .tab {
+    padding: 10px 6px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 1.25;
+    white-space: normal;
+    text-align: center;
+  }
+}
+

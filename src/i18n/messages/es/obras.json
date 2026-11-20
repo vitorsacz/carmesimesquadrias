@@ -42,6 +42,8 @@
     "produtos": "Productos instalados",
     "pedirOrcamento": "Pedir presupuesto",
     "fotos": "fotos",
-    "galeriaAria": "Galería de fotos"
+    "galeriaAria": "Galería de fotos",
+    "tour": "Recorrido por la obra {titulo}",
+    "reproduzir": "Reproducir video"
   }
 }

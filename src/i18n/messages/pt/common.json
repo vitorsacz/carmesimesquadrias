@@ -25,5 +25,15 @@
     "pt": "Português",
     "en": "English",
     "es": "Español"
+  },
+  "seo": {
+    "homeTitle": "Carmesim Esquadrias | Esquadrias de Alumínio de Alto Padrão em Atibaia",
+    "homeDesc": "Fábrica de esquadrias de alumínio de alto padrão em Atibaia, SP. Janelas, portas de correr, guarda-corpo de vidro, coberturas e fachadas, com 5 anos de garantia.",
+    "obrasDesc": "Obras residenciais e comerciais em Atibaia com esquadrias de alumínio Carmesim: fotos, antes e depois e vídeos de cada projeto.",
+    "obraDesc": "Fotos, antes e depois e vídeo da obra {titulo} ({tipo}) com esquadrias de alumínio Carmesim.",
+    "notFoundTitle": "Página não encontrada",
+    "notFoundText": "O endereço que você procurou não existe ou foi movido.",
+    "notFoundCta": "Voltar para o início",
+    "notFoundObras": "Ver obras"
   }
 }
