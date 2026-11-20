@@ -1,0 +1,14 @@
+.mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  user-select: none;
+}
