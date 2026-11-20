@@ -8,11 +8,12 @@ import Image from 'next/image'
 import { BLUR } from '@/lib/blur'
 import styles from './Contato.module.css'
 
-const WA_URL = 'https://wa.me/5511973046448'
+import { whatsappUrl } from '@/lib/whatsapp'
 const IG_URL = 'https://instagram.com/carmesim_esquadrias'
 
 export function Contato() {
   const t = useTranslations('home.contato')
+  const tWa = useTranslations('common.whatsapp')
   const ref = useRef<HTMLElement>(null)
   const inView = useInView(ref, { once: true, margin: '-10% 0px' })
 
@@ -62,7 +63,7 @@ export function Contato() {
 
           <div className={styles.btns}>
             <a
-              href={WA_URL}
+              href={whatsappUrl(tWa('projeto'))}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.ctaWa}

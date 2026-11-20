@@ -35,5 +35,14 @@
     "notFoundText": "O endereço que você procurou não existe ou foi movido.",
     "notFoundCta": "Voltar para o início",
     "notFoundObras": "Ver obras"
+  },
+  "whatsapp": {
+    "geral": "Olá! Vim pelo site da Carmesim e gostaria de mais informações sobre esquadrias.",
+    "orcamento": "Olá! Vim pelo site da Carmesim e gostaria de solicitar um orçamento de esquadrias.",
+    "projeto": "Olá! Vim pelo site da Carmesim e gostaria de conversar sobre o meu projeto.",
+    "obra": "Olá! Vi a obra {obra} no site da Carmesim e gostaria de um orçamento para um projeto parecido."
+  },
+  "a11y": {
+    "pular": "Pular para o conteúdo"
   }
 }

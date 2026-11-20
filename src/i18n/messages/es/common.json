@@ -35,5 +35,14 @@
     "notFoundText": "La dirección que buscas no existe o fue movida.",
     "notFoundCta": "Volver al inicio",
     "notFoundObras": "Ver obras"
+  },
+  "whatsapp": {
+    "geral": "¡Hola! Llegué por el sitio web de Carmesim y me gustaría recibir más información.",
+    "orcamento": "¡Hola! Llegué por el sitio web de Carmesim y me gustaría solicitar un presupuesto.",
+    "projeto": "¡Hola! Llegué por el sitio web de Carmesim y me gustaría hablar sobre mi proyecto.",
+    "obra": "¡Hola! Vi la obra {obra} en el sitio web de Carmesim y me gustaría un presupuesto para algo parecido."
+  },
+  "a11y": {
+    "pular": "Saltar al contenido"
   }
 }
