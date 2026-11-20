@@ -1,0 +1,114 @@
+/* 4-col grid with featured 2×2 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+/* Uniform grid — no featured, for galleries with < 5 photos */
+.gridUniform {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+.item {
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: var(--bg-3);
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+/* Featured item spans 2 cols × 2 rows */
+.itemFeatured {
+  grid-column: span 2;
+  grid-row: span 2;
+  aspect-ratio: unset;
+}
+
+/* "+N mais" overlay item */
+.itemMore {
+  cursor: pointer;
+}
+
+.imgWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  object-fit: cover;
+  transition: transform 0.5s var(--ease-out);
+}
+
+.imgDimmed {
+  opacity: 0.45;
+}
+
+.item:hover .img {
+  transform: scale(1.06);
+}
+
+.hoverOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 8, 8, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0;
+  transition: background 0.25s, opacity 0.25s;
+  pointer-events: none;
+}
+
+.item:hover .hoverOverlay {
+  background: rgba(10, 8, 8, 0.35);
+  opacity: 1;
+}
+
+.moreOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 8, 8, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.moreNum {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.moreLabel {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 768px) {
+  .grid,
+  .gridUniform {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .itemFeatured {
+    grid-column: span 2;
+    grid-row: span 1;
+    aspect-ratio: 2 / 1;
+  }
+}

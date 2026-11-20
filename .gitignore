@@ -1,0 +1,10 @@
+.next/
+node_modules/
+.env*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Material de referência fora do site
+_arquivo/

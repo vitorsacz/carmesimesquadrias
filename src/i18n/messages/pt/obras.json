@@ -1,0 +1,47 @@
+{
+  "andrea-e-thiago": {
+    "titulo": "Andrea e Thiago",
+    "tipo": "Residência — Atibaia, SP",
+    "descricao": "Residência de alto padrão com esquadrias de alumínio preto em toda a extensão da fachada. Integração total entre sala e área externa através de portas de correr de grande vão.",
+    "produtos": [
+      "Portas de correr",
+      "Guarda-corpo de vidro",
+      "Box de banheiro",
+      "Portão lateral"
+    ]
+  },
+  "bioplugs": {
+    "titulo": "Bioplugs",
+    "tipo": "Comercial — Atibaia, SP",
+    "descricao": "Edificação comercial com fachada em cladding de madeira e esquadrias de alumínio.",
+    "produtos": [
+      "Esquadrias de fachada",
+      "Vidros temperados"
+    ]
+  },
+  "celso-e-marisa": {
+    "titulo": "Celso e Marisa",
+    "tipo": "Residência — Atibaia, SP",
+    "descricao": "Residência com varanda perimetral no segundo pavimento, skylight de alumínio, guarda-corpo de vidro e esquadrias de correr de grande vão enquadrando a piscina espelhada.",
+    "produtos": [
+      "Janelas de correr",
+      "Guarda-corpo de vidro",
+      "Skylight",
+      "Venezianas",
+      "Portão"
+    ]
+  },
+  "ui": {
+    "verGaleria": "Ver galeria",
+    "antesDepois": "Antes e depois",
+    "fotosDe": "Fotos de",
+    "fechar": "Fechar",
+    "anterior": "Anterior",
+    "proximo": "Próxima",
+    "video": "Vídeo da obra",
+    "produtos": "Produtos instalados",
+    "pedirOrcamento": "Pedir orçamento",
+    "fotos": "fotos",
+    "galeriaAria": "Galeria de fotos"
+  }
+}

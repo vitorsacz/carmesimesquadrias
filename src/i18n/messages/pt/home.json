@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "tagline": "A sua grife de esquadrias",
+    "sub": "Esquadrias de alumínio fabricadas em Atibaia com acabamento de alto padrão.",
+    "cta": "Ver obras",
+    "eyebrow": "Fábrica própria · Atibaia, SP",
+    "scroll": "Role para conhecer",
+    "wordmarkSub": "Esquadrias"
+  },
+  "brand": {
+    "headline": "Luz natural, vista integrada e elegância em cada traço",
+    "sub": "Esquadrias de alumínio fabricadas para enquadrar a paisagem — e não competir com ela."
+  },
+  "servicos": {
+    "label": "O que fazemos",
+    "titulo": "Soluções em esquadrias de alumínio",
+    "items": {
+      "janelas": {
+        "nome": "Janelas",
+        "desc": "Janelas de correr, basculantes e maxim-ar em alumínio com perfis de alto desempenho."
+      },
+      "minimalista": {
+        "nome": "Linha Minimalista",
+        "badge": "Novo",
+        "desc": "Perfis ultrafinos para integração máxima entre ambientes internos e externos."
+      },
+      "portas": {
+        "nome": "Portas Gourmet",
+        "desc": "Portas de correr e pivotantes para áreas gourmet, integrando cozinha e área externa."
+      },
+      "coberturas": {
+        "nome": "Coberturas",
+        "desc": "Coberturas em vidro e alumínio, incluindo telhados de vidro e pergolados integrados."
+      },
+      "sacada": {
+        "nome": "Sacadas",
+        "desc": "Fechamentos de sacada com esquadrias que preservam a vista e protegem do vento."
+      },
+      "guardacorpo": {
+        "nome": "Guarda-corpo",
+        "desc": "Guarda-corpos em vidro com perfis de alumínio — elegância e segurança integradas."
+      },
+      "fachada": {
+        "nome": "Fachada Ventilada",
+        "desc": "Sistemas de fachada ventilada em alumínio com alto desempenho térmico e durabilidade."
+      }
+    },
+    "sub": "Do perfil ultrafino ao fechamento completo de fachada, cada peça sai da nossa fábrica sob medida para o seu projeto."
+  },
+  "historia": {
+    "label": "Quem somos",
+    "titulo": "Uma marca fundada em 2025 para redefinir o padrão das esquadrias no Brasil.",
+    "quote": "Eu só sei fazer uma coisa na minha vida: esquadrias bonitas.",
+    "autor": "Luiz Marques, fundador",
+    "texto": "A Carmesim nasceu da obsessão por um detalhe que quase ninguém nota — até ver bem-feito. Fabricamos cada esquadria em Atibaia, acompanhando o projeto da medição à instalação.",
+    "fotoAlt": "Luiz, fundador da Carmesim",
+    "fotoAlt2": "Luiz, fundador da Carmesim, sorrindo com a camiseta da marca"
+  },
+  "processo": {
+    "label": "Como trabalhamos",
+    "titulo": "Do projeto à instalação",
+    "garantia": {
+      "numero": "5",
+      "unidade": "anos",
+      "desc": "de garantia"
+    },
+    "etapas": [
+      {
+        "titulo": "Visita técnica",
+        "desc": "Medição e levantamento completo do projeto."
+      },
+      {
+        "titulo": "Projeto",
+        "desc": "Desenvolvimento técnico e aprovação com o cliente."
+      },
+      {
+        "titulo": "Fabricação",
+        "desc": "Produção em fábrica própria em Atibaia, SP."
+      },
+      {
+        "titulo": "Instalação",
+        "desc": "Equipe técnica especializada em campo."
+      }
+    ],
+    "sub": "Um processo único, do primeiro contato à entrega da obra."
+  },
+  "obras": {
+    "label": "Portfólio",
+    "titulo": "Obras executadas",
+    "verTodas": "Ver galeria completa",
+    "sub": "Projetos residenciais e comerciais com esquadrias Carmesim instaladas do início ao acabamento.",
+    "verGaleria": "Ver fotos",
+    "antesDepois": "Antes e depois",
+    "arraste": "Arraste para comparar",
+    "antes": "Antes",
+    "depois": "Depois",
+    "concluida": "Concluída",
+    "fotos": "fotos"
+  },
+  "contato": {
+    "label": "Vamos conversar",
+    "titulo": "Vamos dar forma ao seu projeto?",
+    "sub": "Conte o que você imagina. Respondemos pelo WhatsApp com um orçamento personalizado.",
+    "cta": "Chamar no WhatsApp",
+    "ctaSec": "Ver no Instagram",
+    "info": [
+      {
+        "t": "Fábrica própria",
+        "d": "Atibaia, SP"
+      },
+      {
+        "t": "5 anos",
+        "d": "de garantia"
+      },
+      {
+        "t": "Sob medida",
+        "d": "Orçamento personalizado"
+      }
+    ]
+  },
+  "galeria": {
+    "label": "Galeria",
+    "titulo": "Detalhes que fazem a diferença",
+    "sub": "Uma seleção de ambientes e acabamentos das nossas obras.",
+    "verTodas": "Ver todas as fotos"
+  }
+}

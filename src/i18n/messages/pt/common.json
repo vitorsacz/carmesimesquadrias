@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "servicos": "Serviços",
+    "obras": "Obras",
+    "processo": "Processo",
+    "contato": "Contato",
+    "galeria": "Galeria",
+    "historia": "História"
+  },
+  "cta": {
+    "orcamento": "Solicitar orçamento",
+    "whatsapp": "Converse pelo WhatsApp"
+  },
+  "footer": {
+    "cidade": "Atibaia, SP",
+    "garantia": "5 anos de garantia",
+    "instagram": "@carmesim_esquadrias",
+    "direitos": "Todos os direitos reservados"
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo escuro"
+  },
+  "locale": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  }
+}

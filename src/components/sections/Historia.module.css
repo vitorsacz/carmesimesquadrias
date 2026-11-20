@@ -1,0 +1,137 @@
+.section {
+  padding-block: var(--section-y);
+  background: var(--bg);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: clamp(var(--space-12), 6vw, var(--space-20));
+  align-items: center;
+}
+
+/* Photo */
+.fotoWrap {
+  position: relative;
+  align-self: start;
+  padding-right: 20%;
+  padding-bottom: 16%;
+  isolation: isolate;
+}
+
+.fotoFrame {
+  position: relative;
+  aspect-ratio: 3/5;
+  max-height: 680px;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-3);
+}
+
+.fotoImg {
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Segunda foto sobreposta no canto inferior direito */
+.fotoInset {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 48%;
+  aspect-ratio: 4/5;
+  overflow: hidden;
+  border: 6px solid var(--bg);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+  background: var(--bg-3);
+}
+
+/* Detalhe vermelho deslocado no canto superior esquerdo */
+.fotoAccent {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 80px;
+  height: 80px;
+  background: var(--accent);
+  z-index: -1;
+}
+
+/* Text side */
+.textSide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.titulo {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.8vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+  text-wrap: balance;
+}
+
+.texto {
+  font-size: clamp(14px, 1.4vw, 16px);
+  color: var(--fg-muted);
+  line-height: 1.72;
+}
+
+.quote {
+  display: flex;
+  gap: var(--space-5);
+  align-items: flex-start;
+  padding: var(--space-6) var(--space-6) var(--space-6) 0;
+  border-top: 1px solid var(--border);
+  margin-top: var(--space-2);
+}
+
+.quoteBar {
+  flex-shrink: 0;
+  width: 3px;
+  align-self: stretch;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.quoteText {
+  font-family: var(--font-display);
+  font-size: clamp(16px, 1.8vw, 22px);
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--fg);
+  margin-bottom: var(--space-3);
+  text-wrap: balance;
+}
+
+.quoteAutor {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--fg-muted);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .fotoWrap {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .fotoInset {
+    border-width: 4px;
+  }
+
+  .fotoAccent {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "andrea-e-thiago": {
+    "titulo": "Andrea & Thiago",
+    "tipo": "Residence — Atibaia, SP",
+    "descricao": "High-end residence with black aluminum windows spanning the full facade. Full integration between living room and outdoor area via large-span sliding doors.",
+    "produtos": [
+      "Sliding doors",
+      "Glass railings",
+      "Shower enclosure",
+      "Side gate"
+    ]
+  },
+  "bioplugs": {
+    "titulo": "Bioplugs",
+    "tipo": "Commercial — Atibaia, SP",
+    "descricao": "Commercial building with wood cladding facade and aluminum windows.",
+    "produtos": [
+      "Facade windows",
+      "Tempered glass"
+    ]
+  },
+  "celso-e-marisa": {
+    "titulo": "Celso & Marisa",
+    "tipo": "Residence — Atibaia, SP",
+    "descricao": "Residence with a perimeter balcony on the second floor, aluminum skylight, glass railings and large-span sliding windows framing the lap pool.",
+    "produtos": [
+      "Sliding windows",
+      "Glass railings",
+      "Skylight",
+      "Louvered doors",
+      "Gate"
+    ]
+  },
+  "ui": {
+    "verGaleria": "View gallery",
+    "antesDepois": "Before & after",
+    "fotosDe": "Photos of",
+    "fechar": "Close",
+    "anterior": "Previous",
+    "proximo": "Next",
+    "video": "Project video",
+    "produtos": "Installed products",
+    "pedirOrcamento": "Request a quote",
+    "fotos": "photos",
+    "galeriaAria": "Photo gallery"
+  }
+}

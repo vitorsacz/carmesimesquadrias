@@ -1,0 +1,73 @@
+.wrap {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  cursor: col-resize;
+  user-select: none;
+  -webkit-user-select: none;
+  background: var(--bg-3);
+}
+
+.imgBefore,
+.imgAfter {
+  position: absolute;
+  inset: 0;
+}
+
+.img {
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.label,
+.labelAfter {
+  position: absolute;
+  bottom: var(--space-4);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(10,8,8,0.6);
+  backdrop-filter: blur(4px);
+  padding: 4px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.label { left: var(--space-4) }
+.labelAfter { right: var(--space-4) }
+
+.handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.handleLine {
+  width: 2px;
+  flex: 1;
+  background: #fff;
+  opacity: 0.9;
+}
+
+.handleCircle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
