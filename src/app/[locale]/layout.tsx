@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { ThemeProvider } from 'next-themes'
+import { Analytics } from '@vercel/analytics/next'
+import { VLibras } from '@/components/a11y/VLibras'
 import { routing } from '@/i18n/routing'
 import { HTML_LANG, SITE_NAME, SITE_URL, pageMetadata } from '@/lib/seo'
 import type { Locale } from '@/types'
@@ -44,6 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(SITE_URL),
     applicationName: SITE_NAME,
     formatDetection: { telephone: false },
+    // Verificação do Google Search Console (propriedade https://carmesim.vitorsantos.dev.br/)
+    verification: { google: 'Svp7--5PGQVfsZqTSxn38iqa8hVwpb3-j_e-FCIDMK0' },
     ...pageMetadata({ locale, title: t('homeTitle'), description: t('homeDesc'), absoluteTitle: true }),
     // As páginas internas informam só o próprio nome; o sufixo da marca vem daqui.
     title: { default: t('homeTitle'), template: `%s — ${SITE_NAME}` },
@@ -58,6 +62,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   const messages = await getMessages()
+  const tA11y = await getTranslations({ locale, namespace: 'common.a11y' })
 
   return (
     <html
@@ -66,6 +71,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       suppressHydrationWarning
     >
       <body>
+        <a href="#conteudo" className="skip-link">
+          {tA11y('pular')}
+        </a>
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="dark"
@@ -76,6 +84,9 @@ export default async function LocaleLayout({ children, params }: Props) {
             {children}
           </NextIntlClientProvider>
         </ThemeProvider>
+        <Analytics />
+        {/* Tradução para Libras: o VLibras traduz português, então só aparece na versão em pt */}
+        {locale === 'pt' && <VLibras />}
       </body>
     </html>
   )

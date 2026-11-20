@@ -86,7 +86,7 @@
   display: inline-block;
   font-size: 13px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 @media (max-width: 900px) {
