@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { LogoMark } from '@/components/ui/LogoMark'
+import { whatsappUrl } from '@/lib/whatsapp'
 import styles from './Footer.module.css'
 
 export function Footer() {
@@ -32,7 +33,7 @@ export function Footer() {
             {t('footer.instagram')}
           </a>
           <a
-            href="https://wa.me/5511973046448"
+            href={whatsappUrl(t('whatsapp.geral'))}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.social}

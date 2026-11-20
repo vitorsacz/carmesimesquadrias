@@ -7,11 +7,12 @@ import { motion } from 'motion/react'
 import { LogoMark } from '@/components/ui/LogoMark'
 import styles from './Hero.module.css'
 
-const WA_URL = 'https://wa.me/5511973046448'
+import { whatsappUrl } from '@/lib/whatsapp'
 
 export function Hero() {
   const t = useTranslations('home.hero')
   const tCta = useTranslations('common.cta')
+  const tWa = useTranslations('common.whatsapp')
 
   return (
     <section className={styles.hero} aria-label="Hero">
@@ -37,7 +38,7 @@ export function Hero() {
           className={styles.eyebrow}
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.5, delay: 0.05 }}
         >
           {t('eyebrow')}
         </motion.p>
@@ -46,7 +47,7 @@ export function Hero() {
           className={styles.logoWrap}
           initial={{ opacity: 0, scale: 0.85 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
           aria-hidden="true"
         >
           <LogoMark size={72} />
@@ -56,7 +57,7 @@ export function Hero() {
           className={styles.wordmark}
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
           aria-hidden="true"
         >
           <span className={styles.wordmarkMain}>CARMESIM</span>
@@ -67,7 +68,7 @@ export function Hero() {
           className={styles.divider}
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
           aria-hidden="true"
         />
 
@@ -75,7 +76,7 @@ export function Hero() {
           className={styles.tagline}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
         >
           {t('tagline')}
         </motion.h2>
@@ -84,7 +85,7 @@ export function Hero() {
           className={styles.sub}
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.72 }}
+          transition={{ duration: 0.6, delay: 0.36 }}
         >
           {t('sub')}
         </motion.p>
@@ -93,13 +94,13 @@ export function Hero() {
           className={styles.actions}
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.86 }}
+          transition={{ duration: 0.5, delay: 0.43 }}
         >
           <a href="#obras" className={styles.btnPrimary}>
             {t('cta')}
           </a>
           <a
-            href={WA_URL}
+            href={whatsappUrl(tWa('orcamento'))}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.btnSecondary}
