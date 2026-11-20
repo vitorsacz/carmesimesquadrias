@@ -118,7 +118,8 @@
 .sub {
   font-size: clamp(13px, 1.3vw, 16px);
   color: rgba(255, 255, 255, 0.62);
-  max-width: 480px;
+  max-width: 600px;
+  text-wrap: balance;
   line-height: 1.65;
   margin-bottom: var(--space-10);
 }
