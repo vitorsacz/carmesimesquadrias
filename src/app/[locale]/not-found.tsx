@@ -11,7 +11,7 @@ export default function NotFound() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="conteudo" className={styles.main}>
         <div className={`container ${styles.inner}`}>
           <LogoMark size={56} />
           <span className={styles.code}>404</span>

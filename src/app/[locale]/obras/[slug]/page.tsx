@@ -11,6 +11,7 @@ import { VideoPlayer } from '@/components/obras/VideoPlayer'
 import { getObraBySlug, obras } from '@/lib/obras'
 import { routing } from '@/i18n/routing'
 import { pageMetadata } from '@/lib/seo'
+import { whatsappUrl } from '@/lib/whatsapp'
 import styles from './obra.module.css'
 
 type Params = { locale: string; slug: string }
@@ -58,6 +59,7 @@ export default async function ObraPage({
 
   const t = await getTranslations({ locale, namespace: 'obras' })
   const tUI = await getTranslations({ locale, namespace: 'obras.ui' })
+  const tWa = await getTranslations({ locale, namespace: 'common.whatsapp' })
 
   const titulo = t(`${slug}.titulo`)
   const tipo = t(`${slug}.tipo`)
@@ -67,7 +69,7 @@ export default async function ObraPage({
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="conteudo" className={styles.main}>
         {/* Hero */}
         <div className={styles.hero}>
           <div className={styles.heroImg}>
@@ -144,7 +146,7 @@ export default async function ObraPage({
               </div>
 
               <a
-                href="https://wa.me/5511973046448"
+                href={whatsappUrl(tWa('obra', { obra: titulo }))}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.waCta}

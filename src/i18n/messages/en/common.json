@@ -35,5 +35,14 @@
     "notFoundText": "The page you are looking for does not exist or has been moved.",
     "notFoundCta": "Back to home",
     "notFoundObras": "See projects"
+  },
+  "whatsapp": {
+    "geral": "Hello! I found Carmesim through your website and would like more information about your windows and doors.",
+    "orcamento": "Hello! I found Carmesim through your website and would like to request a quote.",
+    "projeto": "Hello! I found Carmesim through your website and would like to talk about my project.",
+    "obra": "Hello! I saw the {obra} project on the Carmesim website and would like a quote for something similar."
+  },
+  "a11y": {
+    "pular": "Skip to content"
   }
 }

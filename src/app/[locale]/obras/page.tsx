@@ -28,7 +28,7 @@ export default function ObrasPage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="conteudo" className={styles.main}>
         <div className={styles.pageHeader}>
           <div className="container">
             <span className="section-label">{t('label')}</span>

@@ -19,7 +19,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <LocalBusinessJsonLd locale={locale as Locale} />
       <Header />
-      <main>
+      <main id="conteudo">
         <Hero />
         <BrandStatement />
         <Servicos />

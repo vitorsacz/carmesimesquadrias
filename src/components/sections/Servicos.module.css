@@ -103,7 +103,7 @@
 }
 
 .iconWrapReg {
-  color: var(--accent);
+  color: var(--accent-text);
   flex-shrink: 0;
 }
 

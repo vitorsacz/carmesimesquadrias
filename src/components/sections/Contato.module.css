@@ -1,4 +1,6 @@
 .section {
+  /* A seção fica sempre sobre foto escura, em qualquer tema: vermelho claro para ícones e textos */
+  --accent-text: #E5586A;
   position: relative;
   min-height: 90vh;
   display: flex;
@@ -159,7 +161,7 @@
 }
 
 .infoIcon {
-  color: var(--accent);
+  color: var(--accent-text);
   flex-shrink: 0;
 }
 

@@ -1,14 +1,15 @@
 import { useTranslations } from 'next-intl'
 import styles from './WhatsAppFAB.module.css'
 
-const WA_URL = 'https://wa.me/5511973046448'
+import { whatsappUrl } from '@/lib/whatsapp'
 
 export function WhatsAppFAB() {
   const t = useTranslations('common.cta')
+  const tWa = useTranslations('common.whatsapp')
 
   return (
     <a
-      href={WA_URL}
+      href={whatsappUrl(tWa('geral'))}
       target="_blank"
       rel="noopener noreferrer"
       className={styles.fab}

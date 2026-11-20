@@ -8,7 +8,7 @@ import { ThemeToggle } from '@/components/ui/ThemeToggle'
 import { LocaleSwitch } from '@/components/ui/LocaleSwitch'
 import styles from './Header.module.css'
 
-const WA_URL = 'https://wa.me/5511973046448'
+import { whatsappUrl } from '@/lib/whatsapp'
 
 export function Header() {
   const t = useTranslations('common')
@@ -65,7 +65,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href={WA_URL}
+            href={whatsappUrl(t('whatsapp.orcamento'))}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.ctaBtn}
