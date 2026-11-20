@@ -22,7 +22,7 @@ export function BrandStatement() {
           blurDataURL={BLUR.brand}
           alt="Corredor superior com guarda-corpo de vidro e esquadrias Carmesim"
           fill
-          quality={80}
+          quality={65}
           sizes="100vw"
           className={styles.bgImg}
         />

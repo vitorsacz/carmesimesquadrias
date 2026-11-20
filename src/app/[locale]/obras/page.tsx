@@ -45,7 +45,7 @@ export default function ObrasPage() {
                     src={obra.cover.src}
                     alt={obra.cover.alt}
                     fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="(max-width: 900px) 100vw, 33vw"
                     quality={80}
                     className={styles.img}
                   />
