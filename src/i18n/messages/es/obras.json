@@ -1,0 +1,47 @@
+{
+  "andrea-e-thiago": {
+    "titulo": "Andrea y Thiago",
+    "tipo": "Residencia — Atibaia, SP",
+    "descricao": "Residencia de alto estándar con ventanas de aluminio negro en toda la fachada. Integración total entre sala y área exterior a través de puertas correderas de gran vano.",
+    "produtos": [
+      "Puertas correderas",
+      "Barandillas de vidrio",
+      "Mampara de baño",
+      "Puerta lateral"
+    ]
+  },
+  "bioplugs": {
+    "titulo": "Bioplugs",
+    "tipo": "Comercial — Atibaia, SP",
+    "descricao": "Edificio comercial con fachada en revestimiento de madera y ventanas de aluminio.",
+    "produtos": [
+      "Ventanas de fachada",
+      "Vidrios templados"
+    ]
+  },
+  "celso-e-marisa": {
+    "titulo": "Celso y Marisa",
+    "tipo": "Residencia — Atibaia, SP",
+    "descricao": "Residencia con balcón perimetral en el segundo piso, lucernario de aluminio, barandillas de vidrio y ventanas correderas de gran vano enmarcando la piscina espejada.",
+    "produtos": [
+      "Ventanas correderas",
+      "Barandillas de vidrio",
+      "Lucernario",
+      "Persianas",
+      "Puerta"
+    ]
+  },
+  "ui": {
+    "verGaleria": "Ver galería",
+    "antesDepois": "Antes y después",
+    "fotosDe": "Fotos de",
+    "fechar": "Cerrar",
+    "anterior": "Anterior",
+    "proximo": "Siguiente",
+    "video": "Video de la obra",
+    "produtos": "Productos instalados",
+    "pedirOrcamento": "Pedir presupuesto",
+    "fotos": "fotos",
+    "galeriaAria": "Galería de fotos"
+  }
+}

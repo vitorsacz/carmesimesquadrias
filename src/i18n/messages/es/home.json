@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "tagline": "Tu marca de carpintería de aluminio",
+    "sub": "Ventanas y puertas de aluminio de alto estándar fabricadas en Atibaia, Brasil.",
+    "cta": "Ver obras",
+    "eyebrow": "Fábrica propia · Atibaia, Brasil",
+    "scroll": "Desliza para conocer",
+    "wordmarkSub": "Ventanas y Puertas"
+  },
+  "brand": {
+    "headline": "Luz natural, vistas integradas y elegancia en cada trazo",
+    "sub": "Carpintería de aluminio hecha para enmarcar el paisaje — no para competir con él."
+  },
+  "servicos": {
+    "label": "Lo que hacemos",
+    "titulo": "Soluciones en Carpintería de Aluminio",
+    "items": {
+      "janelas": {
+        "nome": "Ventanas",
+        "desc": "Ventanas correderas, basculantes y oscilobatientes en aluminio de alto rendimiento."
+      },
+      "minimalista": {
+        "nome": "Línea Minimalista",
+        "badge": "Nuevo",
+        "desc": "Perfiles ultrafinos para máxima integración entre espacios interiores y exteriores."
+      },
+      "portas": {
+        "nome": "Puertas Gourmet",
+        "desc": "Puertas correderas y pivotantes para zonas gourmet, integrando cocina y exterior."
+      },
+      "coberturas": {
+        "nome": "Techos de Vidrio",
+        "desc": "Cubiertas en vidrio y aluminio, incluyendo lucernarios y pérgolas integradas."
+      },
+      "sacada": {
+        "nome": "Balcones",
+        "desc": "Cerramientos de balcón que preservan la vista y protegen del viento."
+      },
+      "guardacorpo": {
+        "nome": "Barandillas",
+        "desc": "Barandillas de vidrio con perfiles de aluminio — elegancia y seguridad integradas."
+      },
+      "fachada": {
+        "nome": "Fachada Ventilada",
+        "desc": "Sistemas de fachada ventilada en aluminio con alto rendimiento térmico y durabilidad."
+      }
+    },
+    "sub": "Del perfil ultrafino al cerramiento completo de fachada, cada pieza sale de nuestra fábrica a medida de tu proyecto."
+  },
+  "historia": {
+    "label": "Quiénes somos",
+    "titulo": "Una marca fundada en 2025 para redefinir el estándar de carpintería en Brasil.",
+    "quote": "Solo sé hacer una cosa en mi vida: carpintería hermosa.",
+    "autor": "Luiz Marques, fundador",
+    "texto": "Carmesim nació de la obsesión por un detalle que casi nadie nota — hasta verlo bien hecho. Fabricamos cada ventana en Atibaia, acompañando el proyecto de la medición a la instalación.",
+    "fotoAlt": "Luiz, fundador de Carmesim",
+    "fotoAlt2": "Luiz, fundador de Carmesim, sonriendo con la camiseta de la marca"
+  },
+  "processo": {
+    "label": "Cómo trabajamos",
+    "titulo": "Del proyecto a la instalación",
+    "garantia": {
+      "numero": "5",
+      "unidade": "años",
+      "desc": "de garantía"
+    },
+    "etapas": [
+      {
+        "titulo": "Visita técnica",
+        "desc": "Medición y relevamiento completo del proyecto."
+      },
+      {
+        "titulo": "Proyecto",
+        "desc": "Desarrollo técnico y aprobación con el cliente."
+      },
+      {
+        "titulo": "Fabricación",
+        "desc": "Producción en fábrica propia en Atibaia, SP."
+      },
+      {
+        "titulo": "Instalación",
+        "desc": "Equipo técnico especializado en obra."
+      }
+    ],
+    "sub": "Un proceso continuo, del primer contacto a la entrega de la obra."
+  },
+  "obras": {
+    "label": "Portafolio",
+    "titulo": "Obras ejecutadas",
+    "verTodas": "Ver galería completa",
+    "sub": "Proyectos residenciales y comerciales con carpintería Carmesim instalada de principio a fin.",
+    "verGaleria": "Ver fotos",
+    "antesDepois": "Antes y después",
+    "arraste": "Arrastra para comparar",
+    "antes": "Antes",
+    "depois": "Después",
+    "concluida": "Concluida",
+    "fotos": "fotos"
+  },
+  "contato": {
+    "label": "Hablemos",
+    "titulo": "¿Damos forma a tu proyecto?",
+    "sub": "Cuéntanos lo que imaginas. Respondemos por WhatsApp con un presupuesto personalizado.",
+    "cta": "Escribir por WhatsApp",
+    "ctaSec": "Ver en Instagram",
+    "info": [
+      {
+        "t": "Fábrica propia",
+        "d": "Atibaia, Brasil"
+      },
+      {
+        "t": "5 años",
+        "d": "de garantía"
+      },
+      {
+        "t": "A medida",
+        "d": "Presupuesto personalizado"
+      }
+    ]
+  },
+  "galeria": {
+    "label": "Galería",
+    "titulo": "Detalles que marcan la diferencia",
+    "sub": "Una selección de ambientes y acabados de nuestras obras.",
+    "verTodas": "Ver todas las fotos"
+  }
+}

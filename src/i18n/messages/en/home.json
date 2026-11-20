@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "tagline": "Your aluminum windows brand",
+    "sub": "High-end aluminum windows and doors manufactured in Atibaia, Brazil.",
+    "cta": "See projects",
+    "eyebrow": "Own factory · Atibaia, Brazil",
+    "scroll": "Scroll to explore",
+    "wordmarkSub": "Windows & Doors"
+  },
+  "brand": {
+    "headline": "Natural light, integrated views and elegance in every detail",
+    "sub": "Aluminum windows made to frame the landscape — not compete with it."
+  },
+  "servicos": {
+    "label": "What we do",
+    "titulo": "Aluminum Window & Door Solutions",
+    "items": {
+      "janelas": {
+        "nome": "Windows",
+        "desc": "Sliding, awning and casement windows in aluminum with high-performance profiles."
+      },
+      "minimalista": {
+        "nome": "Minimalist Line",
+        "badge": "New",
+        "desc": "Ultra-thin profiles for maximum integration between interior and exterior spaces."
+      },
+      "portas": {
+        "nome": "Gourmet Doors",
+        "desc": "Sliding and pivot doors for gourmet areas, connecting kitchen and outdoor spaces."
+      },
+      "coberturas": {
+        "nome": "Roof Glazing",
+        "desc": "Glass and aluminum roofing systems including skylights and integrated pergolas."
+      },
+      "sacada": {
+        "nome": "Balconies",
+        "desc": "Balcony enclosures with windows that preserve the view and provide wind protection."
+      },
+      "guardacorpo": {
+        "nome": "Glass Railings",
+        "desc": "Glass railings with aluminum profiles — elegance and safety combined."
+      },
+      "fachada": {
+        "nome": "Ventilated Facade",
+        "desc": "Aluminum ventilated facade systems with high thermal performance and durability."
+      }
+    },
+    "sub": "From ultra-slim profiles to full facade systems, every piece leaves our factory tailored to your project."
+  },
+  "historia": {
+    "label": "About us",
+    "titulo": "A brand founded in 2025 to redefine the standard of windows in Brazil.",
+    "quote": "There is only one thing I know how to do in my life: beautiful windows.",
+    "autor": "Luiz Marques, founder",
+    "texto": "Carmesim was born from an obsession with a detail almost nobody notices — until they see it done right. We manufacture every window in Atibaia, following the project from measurement to installation.",
+    "fotoAlt": "Luiz, founder of Carmesim",
+    "fotoAlt2": "Luiz, founder of Carmesim, smiling in the brand t-shirt"
+  },
+  "processo": {
+    "label": "How we work",
+    "titulo": "From design to installation",
+    "garantia": {
+      "numero": "5",
+      "unidade": "year",
+      "desc": "warranty"
+    },
+    "etapas": [
+      {
+        "titulo": "Site visit",
+        "desc": "Complete measurement and project survey."
+      },
+      {
+        "titulo": "Design",
+        "desc": "Technical development and client approval."
+      },
+      {
+        "titulo": "Manufacturing",
+        "desc": "Production at our own factory in Atibaia, SP."
+      },
+      {
+        "titulo": "Installation",
+        "desc": "Specialized technical team on site."
+      }
+    ],
+    "sub": "One continuous process, from first contact to project delivery."
+  },
+  "obras": {
+    "label": "Portfolio",
+    "titulo": "Completed projects",
+    "verTodas": "See full gallery",
+    "sub": "Residential and commercial projects with Carmesim windows installed from start to finish.",
+    "verGaleria": "View photos",
+    "antesDepois": "Before & after",
+    "arraste": "Drag to compare",
+    "antes": "Before",
+    "depois": "After",
+    "concluida": "Completed",
+    "fotos": "photos"
+  },
+  "contato": {
+    "label": "Let's talk",
+    "titulo": "Shall we shape your project?",
+    "sub": "Tell us what you have in mind. We reply on WhatsApp with a personalized quote.",
+    "cta": "Message us on WhatsApp",
+    "ctaSec": "See on Instagram",
+    "info": [
+      {
+        "t": "Own factory",
+        "d": "Atibaia, Brazil"
+      },
+      {
+        "t": "5 years",
+        "d": "warranty"
+      },
+      {
+        "t": "Made to measure",
+        "d": "Personalized quote"
+      }
+    ]
+  },
+  "galeria": {
+    "label": "Gallery",
+    "titulo": "Details that make the difference",
+    "sub": "A selection of spaces and finishes from our projects.",
+    "verTodas": "See all photos"
+  }
+}
