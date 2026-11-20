@@ -83,8 +83,12 @@
 }
 
 .credit {
+  grid-column: 1 / -1;
+  text-align: center;
   font-size: 12px;
   color: var(--fg-subtle);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
 }
 
 .creditLink {
