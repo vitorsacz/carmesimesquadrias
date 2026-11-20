@@ -53,14 +53,14 @@ export function Footer() {
         </div>
 
         <div className={styles.credit}>
-          {t('footer.dev')}{' '}
+          <span>{t('footer.dev')} Vitor Santos</span>
           <a
             href="https://vitorsantos.dev.br"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.creditLink}
           >
-            Vitor Santos
+            vitorsantos.dev.br
           </a>
         </div>
       </div>
