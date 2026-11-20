@@ -25,5 +25,15 @@
     "pt": "Português",
     "en": "English",
     "es": "Español"
+  },
+  "seo": {
+    "homeTitle": "Carmesim | High-End Aluminum Windows & Doors in Atibaia, Brazil",
+    "homeDesc": "High-end aluminum windows and doors made in our own factory in Atibaia, SP, Brazil. Sliding doors, glass railings, skylights and facades, with a 5-year warranty.",
+    "obrasDesc": "Residential and commercial projects in Atibaia with Carmesim aluminum windows: photos, before and after, and videos of each project.",
+    "obraDesc": "Photos, before and after, and video of the {titulo} project ({tipo}) with Carmesim aluminum windows.",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist or has been moved.",
+    "notFoundCta": "Back to home",
+    "notFoundObras": "See projects"
   }
 }

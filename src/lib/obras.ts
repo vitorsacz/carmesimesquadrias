@@ -190,15 +190,15 @@ export const obras: ObraData[] = [
     cover: {
       src: '/assets/obras/bioplugs/fotos/depois/bioplugs_depois_capa.jpg',
       alt: 'Bioplugs — fachada finalizada com brises de madeira e vitrine de vidro',
-      width: 640,
-      height: 800,
+      width: 717,
+      height: 896,
     },
     galeria: [
       {
-        src: '/assets/obras/bioplugs/fotos/depois/bioplugs_depois_fachada_001.jpg',
+        src: '/assets/obras/bioplugs/fotos/depois/bioplugs_depois_fachada_001.jpeg',
         alt: 'Fachada finalizada com brises de madeira e vitrine de vidro no térreo',
-        width: 720,
-        height: 540,
+        width: 1195,
+        height: 896,
       },
       {
         src: '/assets/obras/bioplugs/fotos/durante/bioplugs_durante_fachada_003.jpeg',
@@ -228,10 +228,10 @@ export const obras: ObraData[] = [
           height: 1362,
         },
         depois: {
-          src: '/assets/obras/bioplugs/fotos/depois/bioplugs_depois_fachada_001.jpg',
+          src: '/assets/obras/bioplugs/fotos/depois/bioplugs_depois_fachada_001.jpeg',
           alt: 'Fachada finalizada com brises de madeira e esquadrias',
-          width: 720,
-          height: 540,
+          width: 1195,
+          height: 896,
         },
       },
     ],

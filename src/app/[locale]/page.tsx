@@ -9,10 +9,15 @@ import { Galeria } from '@/components/sections/Galeria'
 import { Historia } from '@/components/sections/Historia'
 import { Processo } from '@/components/sections/Processo'
 import { Contato } from '@/components/sections/Contato'
+import { LocalBusinessJsonLd } from '@/components/seo/LocalBusinessJsonLd'
+import type { Locale } from '@/types'
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+
   return (
     <>
+      <LocalBusinessJsonLd locale={locale as Locale} />
       <Header />
       <main>
         <Hero />

@@ -42,6 +42,8 @@
     "produtos": "Installed products",
     "pedirOrcamento": "Request a quote",
     "fotos": "photos",
-    "galeriaAria": "Photo gallery"
+    "galeriaAria": "Photo gallery",
+    "tour": "Tour of the {titulo} project",
+    "reproduzir": "Play video"
   }
 }

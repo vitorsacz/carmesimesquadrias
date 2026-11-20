@@ -25,5 +25,15 @@
     "pt": "Português",
     "en": "English",
     "es": "Español"
+  },
+  "seo": {
+    "homeTitle": "Carmesim | Ventanas y Puertas de Aluminio de Alto Estándar en Atibaia",
+    "homeDesc": "Ventanas y puertas de aluminio de alto estándar fabricadas en nuestra fábrica de Atibaia, SP, Brasil. Puertas corredizas, barandas de vidrio, claraboyas y fachadas, con 5 años de garantía.",
+    "obrasDesc": "Obras residenciales y comerciales en Atibaia con carpintería de aluminio Carmesim: fotos, antes y después y videos de cada proyecto.",
+    "obraDesc": "Fotos, antes y después y video de la obra {titulo} ({tipo}) con carpintería de aluminio Carmesim.",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundText": "La dirección que buscas no existe o fue movida.",
+    "notFoundCta": "Volver al inicio",
+    "notFoundObras": "Ver obras"
   }
 }

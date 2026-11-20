@@ -7,6 +7,7 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { WhatsAppFAB } from '@/components/layout/WhatsAppFAB'
 import { obras } from '@/lib/obras'
+import { pageMetadata } from '@/lib/seo'
 import styles from './obras.module.css'
 
 export async function generateMetadata({
@@ -16,7 +17,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'home.obras' })
-  return { title: t('titulo') }
+  const tSeo = await getTranslations({ locale, namespace: 'common.seo' })
+  return pageMetadata({ locale, path: '/obras', title: t('titulo'), description: tSeo('obrasDesc') })
 }
 
 export default function ObrasPage() {

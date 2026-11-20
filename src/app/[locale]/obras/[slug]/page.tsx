@@ -10,6 +10,7 @@ import { BeforeAfterSlider } from '@/components/obras/BeforeAfterSlider'
 import { VideoPlayer } from '@/components/obras/VideoPlayer'
 import { getObraBySlug, obras } from '@/lib/obras'
 import { routing } from '@/i18n/routing'
+import { pageMetadata } from '@/lib/seo'
 import styles from './obra.module.css'
 
 type Params = { locale: string; slug: string }
@@ -33,10 +34,17 @@ export async function generateMetadata({
   const obra = getObraBySlug(slug)
   if (!obra) return {}
   const t = await getTranslations({ locale, namespace: 'obras' })
-  return {
-    title: t(`${slug}.titulo`),
-    description: t(`${slug}.descricao`),
-  }
+  const tSeo = await getTranslations({ locale, namespace: 'common.seo' })
+  const titulo = t(`${slug}.titulo`)
+  const tipo = t(`${slug}.tipo`)
+  const descricao = t(`${slug}.descricao`) || tSeo('obraDesc', { titulo, tipo })
+  return pageMetadata({
+    locale,
+    path: `/obras/${slug}`,
+    title: titulo,
+    description: descricao,
+    image: { url: obra.cover.src, width: obra.cover.width, height: obra.cover.height, alt: obra.cover.alt },
+  })
 }
 
 export default async function ObraPage({
@@ -112,7 +120,11 @@ export default async function ObraPage({
               {obra.video && (
                 <section className={styles.section}>
                   <h2 className={styles.sectionTitulo}>{tUI('video')}</h2>
-                  <VideoPlayer src={obra.video} label={`Tour pela obra ${titulo}`} />
+                  <VideoPlayer
+                    src={obra.video}
+                    poster={obra.video.replace(/\.mp4$/, '-poster.jpg')}
+                    label={tUI('tour', { titulo })}
+                  />
                 </section>
               )}
             </div>
