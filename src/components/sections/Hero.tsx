@@ -25,7 +25,7 @@ export function Hero() {
           alt="Casa Celso e Marisa — esquadrias de alumínio preto com piscina"
           fill
           priority
-          quality={85}
+          quality={75}
           sizes="100vw"
           className={styles.bgImg}
         />

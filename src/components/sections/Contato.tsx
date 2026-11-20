@@ -42,7 +42,7 @@ export function Contato() {
           blurDataURL={BLUR.contato}
           alt="Casa Andrea e Thiago — fachada traseira com jardim e montanhas"
           fill
-          quality={80}
+          quality={65}
           sizes="100vw"
           className={styles.bgImg}
         />

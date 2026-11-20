@@ -52,12 +52,12 @@ export function BeforeAfterSlider({ antes, depois }: Props) {
       aria-label={`Comparação antes e depois: ${antes.alt} / ${depois.alt}`}
     >
       <div className={styles.imgBefore}>
-        <Image src={antes.src} alt={antes.alt} fill sizes="(max-width: 768px) 100vw, 60vw" quality={80} className={styles.img} />
+        <Image src={antes.src} alt={antes.alt} fill sizes="(max-width: 768px) 100vw, 1000px" quality={75} className={styles.img} />
         <span className={styles.label}>{t('antes')}</span>
       </div>
 
       <div className={styles.imgAfter} style={{ clipPath: `inset(0 0 0 ${pos}%)` }}>
-        <Image src={depois.src} alt={depois.alt} fill sizes="(max-width: 768px) 100vw, 60vw" quality={80} className={styles.img} />
+        <Image src={depois.src} alt={depois.alt} fill sizes="(max-width: 768px) 100vw, 1000px" quality={75} className={styles.img} />
         <span className={styles.labelAfter}>{t('depois')}</span>
       </div>
 
