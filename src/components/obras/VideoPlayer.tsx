@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef } from 'react'
+import { useTranslations } from 'next-intl'
 import styles from './VideoPlayer.module.css'
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
 }
 
 export function VideoPlayer({ src, poster, label }: Props) {
+  const t = useTranslations('obras.ui')
   const [playing, setPlaying] = useState(false)
   const videoRef = useRef<HTMLVideoElement>(null)
 
@@ -41,7 +43,7 @@ export function VideoPlayer({ src, poster, label }: Props) {
         <button
           className={styles.playBtn}
           onClick={toggle}
-          aria-label={`Reproduzir${label ? `: ${label}` : ''}`}
+          aria-label={label ? `${t('reproduzir')}: ${label}` : t('reproduzir')}
         >
           <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <polygon points="5 3 19 12 5 21 5 3"/>

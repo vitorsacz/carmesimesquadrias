@@ -5,6 +5,7 @@ import { motion } from 'motion/react'
 import { useInView } from 'motion/react'
 import { useRef } from 'react'
 import Image from 'next/image'
+import { BLUR } from '@/lib/blur'
 import styles from './BrandStatement.module.css'
 
 export function BrandStatement() {
@@ -17,6 +18,8 @@ export function BrandStatement() {
       <div className={styles.bg}>
         <Image
           src="/assets/obras/celso-e-marisa/fotos/depois/celso-e-marisa_depois_corredor-superior_001.jpeg"
+          placeholder="blur"
+          blurDataURL={BLUR.brand}
           alt="Corredor superior com guarda-corpo de vidro e esquadrias Carmesim"
           fill
           quality={80}

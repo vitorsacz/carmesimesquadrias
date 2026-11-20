@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+import { BLUR } from '@/lib/blur'
 import { motion } from 'motion/react'
 import { LogoMark } from '@/components/ui/LogoMark'
 import styles from './Hero.module.css'
@@ -19,6 +20,8 @@ export function Hero() {
       <div className={styles.bg}>
         <Image
           src="/assets/obras/celso-e-marisa/fotos/depois/celso-e-marisa_depois_fachada-traseira_001.jpeg"
+          placeholder="blur"
+          blurDataURL={BLUR.hero}
           alt="Casa Celso e Marisa — esquadrias de alumínio preto com piscina"
           fill
           priority

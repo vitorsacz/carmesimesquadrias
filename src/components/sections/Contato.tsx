@@ -5,6 +5,7 @@ import { motion } from 'motion/react'
 import { useInView } from 'motion/react'
 import { useRef } from 'react'
 import Image from 'next/image'
+import { BLUR } from '@/lib/blur'
 import styles from './Contato.module.css'
 
 const WA_URL = 'https://wa.me/5511973046448'
@@ -37,6 +38,8 @@ export function Contato() {
       <div className={styles.bg}>
         <Image
           src="/assets/obras/andrea-e-thiago/fotos/depois/andrea-e-thiago_depois_fachada-traseira_003.jpeg"
+          placeholder="blur"
+          blurDataURL={BLUR.contato}
           alt="Casa Andrea e Thiago — fachada traseira com jardim e montanhas"
           fill
           quality={80}
